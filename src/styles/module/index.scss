@@ -1,0 +1,128 @@
+/*banner*/
+div.banner{width: 100%;height: 440px;/*background: pink;*/}
+div.banner img{min-width: 1920px;height: 440px;}
+/*main_index*/ 
+div.main_index{width: 100%;}
+div.index_common_header{width:1200px;height: 180px;margin:0 auto ;background: url('../images/index_img/header_bg.png') no-repeat center;text-align: center;overflow: hidden;}
+div.index_common_header>h6{font-size: 24px;color:#525252;margin-top: 70px;}
+div.index_common_header>span{width: 58px;height: 3px;background: #38b8f8;margin: 10px 0 10px 0;}
+div.index_common_header>p{font-size: 14px;color:#666;}
+/*我们的优势*/ 
+ul.ourAdvantage_content{width: 1200px;height:670px;/*background:green;*/margin: 0 auto;}
+ul.ourAdvantage_content>li{width: 240px;height:250px ;padding:0 20px;float: left;border:1px solid #eee;box-sizing:border-box;/*background: yellow;*/margin-top: 50px;margin-right: 40px;text-align: center;position: relative;}
+ul.ourAdvantage_content>li{margin-right: 80px;}
+ul.ourAdvantage_content>li:nth-child(4n){margin-right: 0;}
+ul.ourAdvantage_content>li>i{width: 58px;height: 65px;position: absolute;top:-32px;left:50%;margin-left: -29px;background-image:url('../images/index_img/icon_sprites1.png');}
+ul.ourAdvantage_content>li:nth-child(1)>i{background-position: 0 0;}
+ul.ourAdvantage_content>li:nth-child(2)>i{background-position: -83px 0;}
+ul.ourAdvantage_content>li:nth-child(3)>i{background-position: -164px 0;}
+ul.ourAdvantage_content>li:nth-child(4)>i{background-position: -246px 0;}
+ul.ourAdvantage_content>li:nth-child(5)>i{background-position: -328px 0;}
+ul.ourAdvantage_content>li:nth-child(6)>i{background-position: -410px 0;}
+ul.ourAdvantage_content>li:nth-child(7)>i{background-position: -492px 0;}
+ul.ourAdvantage_content>li:nth-child(8)>i{background-position: 0 -167px;}
+ul.ourAdvantage_content>li>h6{font-size:20px;color:#222;margin: 40px 0 15px;}
+ul.ourAdvantage_content>li>p{font-size:14px;color:#666;}
+	/*鼠标滑过事件*/ 
+ul.ourAdvantage_content>li:hover{background-color:#56bcf5;}
+ul.ourAdvantage_content>li:hover>h6{color:#fff;}
+ul.ourAdvantage_content>li:hover>p{color:#fff;}
+ul.ourAdvantage_content>li:hover>i{width: 70px;height:77px;position: absolute;top:-38px;left:50%;margin-left: -35px;}
+ul.ourAdvantage_content>li:nth-child(1):hover>i{background-position:0 -77px;}
+ul.ourAdvantage_content>li:nth-child(2):hover>i{background-position:-83px -77px;}
+ul.ourAdvantage_content>li:nth-child(3):hover>i{background-position:-164px -77px;}
+ul.ourAdvantage_content>li:nth-child(4):hover>i{background-position:-246px -77px;}
+ul.ourAdvantage_content>li:nth-child(5):hover>i{background-position:-328px -77px;}
+ul.ourAdvantage_content>li:nth-child(6):hover>i{background-position:-410px -77px;}
+ul.ourAdvantage_content>li:nth-child(7):hover>i{background-position:-492px -77px;}
+ul.ourAdvantage_content>li:nth-child(8):hover>i{background-position:0 -245px;}
+/*产品卖点*/
+div.productSell{width: 100%;height:850px;background: #f1f1f1;}
+div.productSell_content{width: 1200px;margin:0 auto;/*background: teal;*/}
+div.productSell_content1{height: 60px;position: relative;}
+div.productSell_content1>p{width: 498px;height: 60px;font-size:18px;color:#fff;line-height:60px;position: absolute;}
+div.productSell_content1>p:nth-child(1){background:#9d9d9d;left:0;text-align: right;padding-right: 100px;border-top-right-radius: 20px;}
+div.productSell_content1>p:nth-child(2){background:#f2892c;right:0;text-align: left;padding-left: 100px;border-bottom-left-radius: 20px;}
+div.productSell_content1>i{width:174px ;height:47px ;background:url('../images/index_img/icon_sprites1.png') -83px -265px;position: absolute;left:50%;top:50%;margin-left: -87px;margin-top: -23px;}
+div.productSell_content2{height: 550px;/*background: yellow;*/font-size:16px;color: #666;}
+div.productSell_content2>ul{width: 350px;height: 550px;/*background: red;*/float: left;text-align: right;}
+div.productSell_content2>img{margin: 70px 0 0 30px;/*background: red;*/float: left;}
+div.productSell_content2>ol{width: 350px;height: 550px;/*background: green;*/float:right;}
+div.productSell_content2>ul>li{height: 60px;margin-bottom: 55px;margin-top: 50px;}
+div.productSell_content2>ul>li>span{display: inline-block;height: 60px;line-height: 30px;margin-right: 18px;}
+div.productSell_content2>ul>li>i{display: inline-block;width:38px;height:38px;background-image:url('../images/index_img/icon_sprites1.png' ) ;}
+div.productSell_content2>ol>li{height: 60px;margin-bottom: 55px;margin-top: 50px;}
+div.productSell_content2>ol>li>span{display: inline-block;height: 60px;line-height: 30px;margin-left: 18px;}
+div.productSell_content2>ol>li>i{display: inline-block;width:38px;height:38px;background-image:url('../images/index_img/icon_sprites1.png' ) ;}
+
+div.productSell_content2>ul>li:nth-child(1)>i{background-position:-82px -167px }
+div.productSell_content2>ul>li:nth-child(2)>i{background-position:-132px -167px }
+div.productSell_content2>ul>li:nth-child(3)>i{background-position:-183px -167px }
+div.productSell_content2>ul>li:nth-child(4)>i{background-position:-233px -167px }
+div.productSell_content2>ul>li:hover{color:#f2892c;}
+div.productSell_content2>ul>li:nth-child(1):hover>i{background-position:-82px -216px }
+div.productSell_content2>ul>li:nth-child(2):hover>i{background-position:-132px -216px }
+div.productSell_content2>ul>li:nth-child(3):hover>i{background-position:-183px -216px }
+div.productSell_content2>ul>li:nth-child(4):hover>i{background-position:-233px -216px }
+
+div.productSell_content2>ol>li:nth-child(1)>i{background-position:-284px -167px }
+div.productSell_content2>ol>li:nth-child(2)>i{background-position:-334px -167px }
+div.productSell_content2>ol>li:nth-child(3)>i{background-position:-384px -167px }
+div.productSell_content2>ol>li:nth-child(4)>i{background-position:-82px -167px }
+div.productSell_content2>ol>li:hover{color:#f2892c;}
+div.productSell_content2>ol>li:nth-child(1):hover>i{background-position:-284px -216px }
+div.productSell_content2>ol>li:nth-child(2):hover>i{background-position:-334px -216px }
+div.productSell_content2>ol>li:nth-child(3):hover>i{background-position:-384px -216px }
+div.productSell_content2>ol>li:nth-child(4):hover>i{background-position:-82px -216px }
+/*平台介绍*/ 
+div.platformintroduce>ul{width: 1200px;height: 460px;/*background:red;*/margin: 100px auto 0;text-align: center;}
+div.platformintroduce>ul>li{width: 280px;height:400px;background: #f5f5f5;border:1px solid transparent;box-sizing:border-box; float: left;position: relative;}
+div.platformintroduce>ul>li:nth-child(2){margin-left: 26px;}
+div.platformintroduce>ul>li:nth-child(3){margin-left: 26px;}
+div.platformintroduce>ul>li:nth-child(4){float: right;}
+div.platformintroduce>ul>li>i{width: 125px;height: 140px;background-image:url('../images/index_img/icon_sprites1.png') ;position: absolute;left:50%;margin-left: -62px;top:-70px;}
+div.platformintroduce>ul>li:nth-child(1)>i{background-position: 0 -334px;}
+div.platformintroduce>ul>li:nth-child(2)>i{background-position: -137px -334px;}
+div.platformintroduce>ul>li:nth-child(3)>i{background-position: -274px -334px;}
+div.platformintroduce>ul>li:nth-child(4)>i{background-position: -411px -334px;}
+div.platformintroduce>ul>li>dl>dt{font-size:24px;color:#48b8f2;margin: 100px 0 20px;}
+div.platformintroduce>ul>li>dl>dd{font-size:14px;color:#666;border-bottom: 1px solid #fff;line-height: 50px;}
+div.platformintroduce>ul>li:hover{border:1px solid #48b8f2;background: #fff;}
+/*云充全国覆盖省份*/ 
+div.coverPlace{width: 100%;height: 900px;background: #ddd;;position: relative;}
+div.coverPlace>ul{width: 825px;height: 682px;/*background:#ddd;*/margin: 0 auto;background-image:url('../images/index_img/map.png') ;position: relative;}
+div.coverPlace>ul>li{width: 28px;height: 42px;position:absolute;background: url('../images/index_img/icon_sprites1.png') -572px -420px ;}
+div.coverPlace>ul>li.p-hunan{top:474px;left:560px;}
+div.coverPlace>ul>li.p-zhejiang{top:434px;left:686px;}
+div.coverPlace>ul>li.p-shandong{top:300px;left:634px;}
+div.coverPlace>ul>li.p-anhui{top:392px;left:636px;}
+div.coverPlace>ul>li.p-jiangxi{top:468px;left:618px;}
+div.coverPlace>ul>li.p-henan{top:350px;left:576px;}
+div.coverPlace>ul>li.p-chongqing{top:426px;left:486px;}
+div.coverPlace>ul>li.p-shanghai{top:380px;left:704px;}
+div.coverPlace>ul>li.p-chongqing{top:426px;left:486px;}
+div.coverPlace>ul>li.p-sichuan{top:420px;left:400px;}
+div.coverPlace>ul>li.p-guangxi{top:550px;left:508px;}
+div.coverPlace>ul>li.p-guizhou{top:488px;left:476px;}
+div.coverPlace>ul>li.p-hubei{top:402px;left:554px;}
+div.coverPlace>ul>li.p-yunnan{top:530px;left:382px;}
+div.coverPlace>ul>li.p-fujian{top:496px;left:658px;}
+div.coverPlace>ul>li.p-guangdong{top:546px;left:590px;}
+div.coverPlace>ul>li.p-gansu{top:324px;left:424px;}
+div.coverPlace>ul>li.p-hebei{top:258px;left:594px;}
+div.coverPlace>ul>li.p-shanxi1{top:280px;left:546px;}
+div.coverPlace>ul>li.p-shanxi2{top:344px;left:502px;}
+div.coverPlace>ul>li.p-jiangsu{top:346px;left:670px;}
+div.coverPlace>ol{width: 200px;height: 280px;/*background: red;*/position: absolute;bottom:0;left:50%;margin-left: 450px;}
+div.coverPlace>ol>li{width: 200px;height: 110px;background:#eee ;border:1px solid #ddd;box-sizing:border-box;border-radius:5px;}
+div.coverPlace>ol>li:nth-child(1){margin-bottom: 30px;}
+div.coverPlace>ol>li>p:nth-child(1){height: 75px;background:#fff;border-top-left-radius: 5px;border-top-right-radius: 5px;font-size:28px;color:#555;line-height: 75px;text-align: center;}
+div.coverPlace>ol>li>p:nth-child(1)>span{font-size:18px;}
+div.coverPlace>ol>li>p:nth-child(2){height: 35px;font-size:14px;color:#888;line-height: 35px;}
+div.coverPlace>ol>li>p:nth-child(2)>i{width: 17px;height: 17px;display: inline-block;margin:0 5px 5px 20px;vertical-align: middle;background: url('../images/index_img/icon_sprites1.png') no-repeat -548px -334px;}
+div.coverPlace>ol>li:nth-child(1)>p:nth-child(2)>i{background-position: -577px -334px;}
+
+
+
+
+
